@@ -73,13 +73,14 @@ header div a {
     width: 150px;
     height: 50px;
     line-height: 50px;
-    background-color: rgb(32, 82, 190);
+    background-color: rgb(190, 32, 87);
     text-align: center;
     border-radius: 50px;
 }
 
 /* .best_v */
 .best_v {
+    /* background: url('../images/파일명.확장자명'); */
     padding: 100px 0;
 }
 .best_v .title {
@@ -156,7 +157,7 @@ header div a {
     margin-right: 10px;
 }
 .best_v .cont .info ul li:nth-child(1) a {
-    background-color: rgb(32, 82, 190);
+    background-color: rgb(190, 32, 87);
     border: 0;
     color: #fff;
 }
@@ -195,9 +196,9 @@ header div a {
     box-sizing: border-box;
 }
 .motion .list li.on {
-    box-shadow: 2px 3px 15px rgba(230, 20, 90, 0.389);
+    box-shadow: 2px 3px 15px rgba(190, 32, 87, 0.543);
     /* 그림자 : x축 y축 블러 색상 */
-    background-color: rgb(230, 20, 90);
+    background-color: rgb(190, 32, 87);
     color: #fff;
     border: 0;
 }
@@ -393,7 +394,7 @@ footer ul li {
 }
 footer ul li a {color: #fff;}
 footer ul li:first-child {
-    background-color: rgb(32, 82, 190);
+    background-color: rgb(190, 32, 87);
     font-weight: bold;
     border: 0;
 }
