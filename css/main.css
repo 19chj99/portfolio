@@ -1,5 +1,10 @@
 @charset "utf-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Coming+Soon&family=Darker+Grotesque:wght@500&family=IM+Fell+English+SC&family=Shadows+Into+Light+Two&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Coming+Soon&family=Darker+Grotesque:wght@500&family=IM+Fell+English+SC&family=Shadows+Into+Light+Two&family=Spectral+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Coming+Soon&family=Darker+Grotesque:wght@500&family=IM+Fell+English+SC&family=Nanum+Gothic&family=Shadows+Into+Light+Two&family=Spectral+SC&display=swap');
+
 * {margin: 0; padding: 0;}
 li {list-style: none;}
 a {text-decoration: none; color: #333;}
@@ -20,19 +25,22 @@ header div {
     justify-content: space-between;
 }
 header div h1 a {
-    font-size: 25px;
+    font-size: 20px;
+    color: rgb(137, 137, 137);
 }
 header div a {
     font-size: 20px;
+    color:rgb(137, 137, 137);
 }
 
 /* .main_visual */
 .main_visual {
     width: 100%;
     /* height: 100vh; */
-    height: calc(100vh -80px);
+    height: calc(100vh - 80px);
     /* 높이 : 브라우저전체높이 - 헤더값 */
     position: relative;
+    background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
 }
 .main_visual figure {
     width: 100%;
@@ -54,7 +62,8 @@ header div a {
     transform: translateX(-50%);
     /* 변형 : 이동x축 -> 본인이 가진 너빙의 반만큼 역으로 이동  */
     
-    color: #fff;
+    
+    color: #333;
     display: flex;
     flex-wrap: wrap;
     align-content: center;
@@ -62,20 +71,26 @@ header div a {
 .main_visual .title h2 {
     width: 100%;
     font-size: 60px;
+    font-family: 'Playfair Display SC', serif;
+    text-shadow: 2px 3px 5px #000000;
 }
 .main_visual .title p {
     width: 100%;
     font-size: 30px;
     margin-bottom: 40px;
+    color: rgb(86, 85, 85);
+    font-family: 'Darker Grotesque', sans-serif;
 }
 .main_visual .title a {
-    color: #fff;
+    color: rgb(0, 0, 0);
     width: 150px;
     height: 50px;
     line-height: 50px;
-    background-color: rgb(190, 32, 87);
+    background-color: #e89d75;
     text-align: center;
+    box-shadow: 2px 3px 10px #333;
     border-radius: 50px;
+    display: block;
 }
 
 /* .best_v */
@@ -89,9 +104,15 @@ header div a {
 }
 .best_v .title h3 {
     font-size: 40px;
+    font-family: 'Spectral SC', serif;
 }
 .best_v .title p {
     font-size: 20px;
+    font-family: 'Nanum Gothic', sans-serif;
+    width: fit-content;
+    margin: 0 auto;
+    padding: 4px;
+    background-color: #e2d1c3;
 }
 .best_v .cont {
     width: 1280px;
@@ -173,6 +194,7 @@ header div a {
 .motion .title {
     text-align: center;
     margin-bottom: 40px;
+    font-family: 'Spectral SC', serif;
 }
 .motion .title h3 {
     font-size: 45px;
@@ -184,6 +206,7 @@ header div a {
     display: flex;
     justify-content: center;
     margin-bottom: 20px;
+    background-color: #e2d1c3;
 }
 .motion .list li {
     cursor: pointer;
@@ -256,13 +279,14 @@ header div a {
 
 /* .g_ver05 */
 .g_ver05 {
-    background-color: #eee;
+    background-color: #e2d1c3;
     padding: 100px 0;
 }
 .g_ver05 .title {
     text-align: center;
     width: 1280px;
     margin: 0 auto;
+    font-family: 'Spectral SC', serif;
 }
 .g_ver05 .title h3 {
     font-size: 45px;
@@ -373,7 +397,7 @@ header div a {
 }
 
 footer {
-    background-color: #333;
+    background-color: #e2d1c3;
     text-align: center;
     color: #fff;
     padding: 100px 0;
