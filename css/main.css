@@ -111,7 +111,8 @@ header div a {
     font-family: 'Nanum Gothic', sans-serif;
     width: fit-content;
     margin: 0 auto;
-    padding: 4px;
+    padding-left: 120px;
+    padding-right: 120px;
     background-color: #e2d1c3;
 }
 .best_v .cont {
@@ -178,12 +179,12 @@ header div a {
     margin-right: 10px;
 }
 .best_v .cont .info ul li:nth-child(1) a {
-    background-color: rgb(190, 32, 87);
+    background-color: #e89d75;
     border: 0;
-    color: #fff;
+    color: #333;
 }
 .best_v .cont .info ul li:nth-child(2) a {
-    background-color: rgb(183, 179, 179);
+    background-color: rgb(214, 209, 209);
     border: 0;
     color: #333;
 }
@@ -201,6 +202,7 @@ header div a {
 }
 .motion .title p {
     font-size: 20px;
+    font-family: 'Nanum Gothic', sans-serif;
 }
 .motion .list {
     display: flex;
@@ -219,9 +221,9 @@ header div a {
     box-sizing: border-box;
 }
 .motion .list li.on {
-    box-shadow: 2px 3px 15px rgba(190, 32, 87, 0.543);
+    box-shadow: 2px 3px 15px #9c6244;
     /* 그림자 : x축 y축 블러 색상 */
-    background-color: rgb(190, 32, 87);
+    background-color: #e89d75;
     color: #fff;
     border: 0;
 }
@@ -293,6 +295,7 @@ header div a {
 }
 .g_ver05 .title p {
     font-size: 20px;
+    font-family: 'Nanum Gothic', sans-serif;
 }
 .g_ver05 .title em {
     font-size: 13px;
@@ -303,6 +306,7 @@ header div a {
     텍스트 오른쪽 정렬
     외부여백 위로 40px
     외부여백 아래로10px */
+    font-family: 'Nanum Gothic', sans-serif;
 }
 .g_ver05 .cont {
     width: 1280px;
@@ -313,14 +317,12 @@ header div a {
 .g_ver05 .cont .items {
     width: 49%;
     background-color: #fff;
-    display: flex;
-
     align-items: center;
     /* 한줄일때 수직정렬 : 가운데 */
 }
 .g_ver05 .cont .items figure {
-    width: 60%;
-    height: 500px;
+    width: 100%;
+    height: 400px;
     /* 가로 : 60%
     세로 : 500px */
 }
@@ -332,9 +334,12 @@ header div a {
      */
 }
 .g_ver05 .cont .items .info {
-    width: 40%;
+    width: 50%;
     padding-left: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
     box-sizing: border-box;
+    margin: 0 auto;
     /* 가로 : 40%
     내부여백--왼쪽 20px;
     여백을 포함해서 가로값 잡히도록 설정 */
